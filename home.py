@@ -25,7 +25,7 @@ page = st.sidebar.radio("Navigate", ["Home", "Dataset Preview", "EDA Charts", "I
 if page == "Home":
     st.title("⚡ Electric Vehicle Dashboard")
     st.write("Welcome to your EV Dashboard! Explore dataset, EDA insights, and analysis.")
-    st.success("Your Streamlit app is running successfully!")
+    st.success("Streamlit done successfully!!")
 
 # ----------------------------------------
 # DATASET PREVIEW
@@ -177,5 +177,6 @@ elif page == "Insights":
 
     """)
 
-    st.success("🎉 These insights can be used in your viva and project report.")
+    st.success("🎉 THANK YOUUU!!!")
+
 
