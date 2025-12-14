@@ -96,8 +96,6 @@ elif page == "Exploratory Data Analysis":
             "EV Adoption by Model Year",
             "Electric Range Distribution",
             "Top Cities by EV Count",
-            "Top States by EV Count",
-            "Base MSRP Distribution",
             "EV Type Distribution",
         ]
     )
@@ -207,4 +205,5 @@ elif page == "Key Insights & Conclusion":
     """)
 
     st.success("🎉 Project completed successfully!")
+
 
