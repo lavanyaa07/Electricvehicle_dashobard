@@ -129,18 +129,9 @@ elif page == "Exploratory Data Analysis":
         ax.set_title("Top 15 Cities with EV Adoption")
         st.pyplot(fig)
 
-    elif chart == "Top States by EV Count":
-        top_states = df["State"].value_counts().head(15)
-        fig, ax = plt.subplots(figsize=(10, 5))
-        sns.barplot(x=top_states.values, y=top_states.index, ax=ax)
-        ax.set_title("Top 15 States by EV Count")
-        st.pyplot(fig)
+    
 
-    elif chart == "Base MSRP Distribution":
-        fig, ax = plt.subplots(figsize=(10, 4))
-        sns.boxplot(x=df["Base_MSRP"], ax=ax)
-        ax.set_title("Base MSRP Distribution")
-        st.pyplot(fig)
+    
 
     elif chart == "EV Type Distribution":
         type_counts = df["Electric_Vehicle_Type"].value_counts()
@@ -216,3 +207,4 @@ elif page == "Key Insights & Conclusion":
     """)
 
     st.success("🎉 Project completed successfully!")
+
